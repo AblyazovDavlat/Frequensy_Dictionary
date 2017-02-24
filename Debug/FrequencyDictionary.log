@@ -1,0 +1,24 @@
+﻿Сборка начата 24.02.2017 14:41:56.
+     1>Проект "C:\Users\ablya\OneDrive\Documents\Visual Studio 2013\Projects\FrequencyDictionary\FrequencyDictionary\FrequencyDictionary.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\FrequencyDictionary.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\FrequencyDictionary.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FrequencyDictionary.cpp TRecord.cpp TSortTable.cpp
+         TSortTable.cpp
+     1>c:\users\ablya\onedrive\documents\visual studio 2013\projects\frequencydictionary\frequencydictionary\tsorttable.cpp(86): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\ablya\onedrive\documents\visual studio 2013\projects\frequencydictionary\frequencydictionary\tsorttable.cpp(99): warning C4018: <: несоответствие типов со знаком и без знака
+         TRecord.cpp
+         FrequencyDictionary.cpp
+         Создание кода...
+     1>c:\users\ablya\onedrive\documents\visual studio 2013\projects\frequencydictionary\frequencydictionary\tsorttable.cpp(73): warning C4715: TSortTable::GetRec: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ablya\OneDrive\Documents\Visual Studio 2013\Projects\FrequencyDictionary\Debug\FrequencyDictionary.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ablya\OneDrive\Documents\Visual Studio 2013\Projects\FrequencyDictionary\Debug\FrequencyDictionary.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ablya\OneDrive\Documents\Visual Studio 2013\Projects\FrequencyDictionary\Debug\FrequencyDictionary.lib" /MACHINE:X86 Debug\FrequencyDictionary.obj
+         Debug\stdafx.obj
+         Debug\TRecord.obj
+         Debug\TSortTable.obj
+         FrequencyDictionary.vcxproj -> C:\Users\ablya\OneDrive\Documents\Visual Studio 2013\Projects\FrequencyDictionary\Debug\FrequencyDictionary.exe
+     1>Сборка проекта "C:\Users\ablya\OneDrive\Documents\Visual Studio 2013\Projects\FrequencyDictionary\FrequencyDictionary\FrequencyDictionary.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.78
